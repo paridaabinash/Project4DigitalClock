@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./indexcss.css">
+    <link rel="stylesheet" href="./jsproject.css">
 </head>
 <body>
 
@@ -22,54 +22,139 @@
         <div class="alarm-item">
             <img src="./wake_up.jpg" alt=""> 
             <span>Set wake up time</span>
-            <select class="drop-down" value="">
-                <option name="" id="">8 AM - 9 AM</option>
-                <option name="" id="">9 AM - 10 AM</option>
-                <option name="" id="">10 AM - 11 AM</option>
-                <option name="" id="">11 AM - 12 AM</option>
+            <select id="morning" class="drop-down" value="">
+                <option value="0">Default</option>
+                <option value="1">1 AM - 2 AM</option>
+                <option value="2">2 AM - 3 AM</option>
+                <option value="3">3 AM - 4 AM</option>
+                <option value="4">4 AM - 5 AM</option>
+                <option value="5">5 AM - 6 AM</option>
+                <option value="6">6 AM - 7 AM</option>
+                <option value="7">7 AM - 8 AM</option>
+                <option value="8">8 AM - 9 AM</option>
+                <option value="9">9 AM - 10 AM</option>
+                <option value="10">10 AM - 11 AM</option>
+                <option value="11">11 AM - 12 AM</option>
+                <option value="12">12 AM - 1 PM</option>
+                <option value="13">1 PM - 2 PM</option>
+                <option value="14">2 PM - 3 PM</option>
+                <option value="15">3 PM - 4 PM</option>
+                <option value="16">4 PM - 5 PM</option>
+                <option value="17">5 PM - 6 PM</option>
+                <option value="18">6 PM - 7 PM</option>
+                <option value="19">7 PM - 8 PM</option>
+                <option value="20">8 PM - 9 PM</option>
+                <option value="21">9 PM - 10 PM</option>
+                <option value="22">10 PM - 11 PM</option>
+                <option value="23">11 PM - 12 PM</option>
+                <option value="24">12 PM - 1 AM</option>
+                
             </select>
         </div>
         <div class="dropbar1"></div>
         <div class="alarm-item">
                 <img src="./lunch_time.jpg" alt="">
                 <span>Set lunch time</span>
-            <select class="drop-down" value="">
-                <option name="" id="">8 AM - 9 AM</option>
-                <option name="" id="">9 AM - 10 AM</option>
-                <option name="" id="">10 AM - 11 AM</option>
-                <option name="" id="">11 AM - 12 AM</option>
+            <select id="afternoon" class="drop-down" value="">
+                <option value="0">Default</option>
+                <option value="1">1 AM - 2 AM</option>
+                <option value="2">2 AM - 3 AM</option>
+                <option value="3">3 AM - 4 AM</option>
+                <option value="4">4 AM - 5 AM</option>
+                <option value="5">5 AM - 6 AM</option>
+                <option value="6">6 AM - 7 AM</option>
+                <option value="7">7 AM - 8 AM</option>
+                <option value="8">8 AM - 9 AM</option>
+                <option value="9">9 AM - 10 AM</option>
+                <option value="10">10 AM - 11 AM</option>
+                <option value="11">11 AM - 12 AM</option>
+                <option value="12">12 AM - 1 PM</option>
+                <option value="13">1 PM - 2 PM</option>
+                <option value="14">2 PM - 3 PM</option>
+                <option value="15">3 PM - 4 PM</option>
+                <option value="16">4 PM - 5 PM</option>
+                <option value="17">5 PM - 6 PM</option>
+                <option value="18">6 PM - 7 PM</option>
+                <option value="19">7 PM - 8 PM</option>
+                <option value="20">8 PM - 9 PM</option>
+                <option value="21">9 PM - 10 PM</option>
+                <option value="22">10 PM - 11 PM</option>
+                <option value="23">11 PM - 12 PM</option>
+                <option value="24">12 PM - 1 AM</option>
             </select>
         </div>
         <div class="dropbar2"></div>
         <div class="alarm-item">
             <img src="./nap_time.jpg" alt=""> <span>Set nap time</span>
-            <select class="drop-down" value="">
-                <option name="" id="">8 AM - 9 AM</option>
-                <option name="" id="">9 AM - 10 AM</option>
-                <option name="" id="">10 AM - 11 AM</option>
-                <option name="" id="">11 AM - 12 AM</option>
+            <select id="evening" class="drop-down" value="">
+                <option value="0">Default</option>
+                <option value="1">1 AM - 2 AM</option>
+                <option value="2">2 AM - 3 AM</option>
+                <option value="3">3 AM - 4 AM</option>
+                <option value="4">4 AM - 5 AM</option>
+                <option value="5">5 AM - 6 AM</option>
+                <option value="6">6 AM - 7 AM</option>
+                <option value="7">7 AM - 8 AM</option>
+                <option value="8">8 AM - 9 AM</option>
+                <option value="9">9 AM - 10 AM</option>
+                <option value="10">10 AM - 11 AM</option>
+                <option value="11">11 AM - 12 AM</option>
+                <option value="12">12 AM - 1 PM</option>
+                <option value="13">1 PM - 2 PM</option>
+                <option value="14">2 PM - 3 PM</option>
+                <option value="15">3 PM - 4 PM</option>
+                <option value="16">4 PM - 5 PM</option>
+                <option value="17">5 PM - 6 PM</option>
+                <option value="18">6 PM - 7 PM</option>
+                <option value="19">7 PM - 8 PM</option>
+                <option value="20">8 PM - 9 PM</option>
+                <option value="21">9 PM - 10 PM</option>
+                <option value="22">10 PM - 11 PM</option>
+                <option value="23">11 PM - 12 PM</option>
+                <option value="24">12 PM - 1 AM</option>
             </select>
         </div>
         <div class="dropbar3"></div>
         <div class="alarm-item">
             <img src="./nightsvg.svg" alt="">
-            <span>Set wake up time</span>
-            <select class="drop-down" value="">
-                <option name="" id="">8 AM - 9 AM</option>
-                <option name="" id="">9 AM - 10 AM</option>
-                <option name="" id="">10 AM - 11 AM</option>
-                <option name="" id="">11 AM - 12 AM</option>
+            <span>Set night time</span>
+            <select id="night" class="drop-down" value="">
+                <option value="0">Default</option>
+                <option value="1">1 AM - 2 AM</option>
+                <option value="2">2 AM - 3 AM</option>
+                <option value="3">3 AM - 4 AM</option>
+                <option value="4">4 AM - 5 AM</option>
+                <option value="5">5 AM - 6 AM</option>
+                <option value="6">6 AM - 7 AM</option>
+                <option value="7">7 AM - 8 AM</option>
+                <option value="8">8 AM - 9 AM</option>
+                <option value="9">9 AM - 10 AM</option>
+                <option value="10">10 AM - 11 AM</option>
+                <option value="11">11 AM - 12 AM</option>
+                <option value="12">12 AM - 1 PM</option>
+                <option value="13">1 PM - 2 PM</option>
+                <option value="14">2 PM - 3 PM</option>
+                <option value="15">3 PM - 4 PM</option>
+                <option value="16">4 PM - 5 PM</option>
+                <option value="17">5 PM - 6 PM</option>
+                <option value="18">6 PM - 7 PM</option>
+                <option value="19">7 PM - 8 PM</option>
+                <option value="20">8 PM - 9 PM</option>
+                <option value="21">9 PM - 10 PM</option>
+                <option value="22">10 PM - 11 PM</option>
+                <option value="23">11 PM - 12 PM</option>
+                <option value="24">12 PM - 1 AM</option>
             </select>
         </div>
     </div>
 
-    <div class="good-morn"> <span> GOOD MORNING !!</span> <span> WAKE UP !!</span></div>
-    <div class="set-alarm"> <span class="set-alarm-normal">Set Alarm</span> <span class="set-alarm-hidden">Party Time!!</span></div>
+    <div id="bigcontainer" class="good-morn"> <span> GOOD MORNING !!</span> <span> WAKE UP !!</span></div>
+    <div onclick="setTime()" class="set-alarm"> <span class="set-alarm-normal">Set Alarm</span> <span class="set-alarm-hidden">Party Time!!</span></div>
     <div class="output-alarm">
-        <div>Wake Up Time : 10AM - 11AM</div>
-        <div>Lunch Time : 12PM - 1PM</div>
-        <div>Nap Time : 4PM - 5PM</div>
-        <div>Night Up Time : 8PM - 9AM</div>
+        <div>Wake Up Time : <span id="mortime">10AM - 11AM</span> </div>
+        <div>Lunch Time : <span id="luctime">12PM - 1PM</span> </div>
+        <div>Nap Time : <span id="evetime">4PM - 5PM</span> </div>
+        <div>Night Up Time : <span id="nittime">8PM - 9AM</span> </div>
     </div>
     <div class="curved-arrow">
         <div class="arrow3"></div>
@@ -79,24 +164,24 @@
         <div class="zindex2"></div>
         <span class="dctime">TIME</span>
         <span class="timelineimg1">
-            <div class="dchours">10</div>
+            <div id="hours" class="dchours">10</div>
             <div>hours</div>
         </span>
         <span class="colon1">:</span>
         <span class="timelineimg2">
-            <div class="dchours">00</div>
+            <div id="minutes" class="dchours">00</div>
             <div>mins</div>
         </span>
         <span class="colon2">:</span>
         <span class="timelineimg3">
-            <div class="dchours">01</div>
+            <div id="seconds" class="dchours">01</div>
             <div>secs</div>
         </span>
-        <span class="amimg">AM</span>
+        <span id="ampm" class="amimg">AM</span>
     </div>
-    <div class="grabsome">GRAB SOME HEALTHY BREAKFAST!!!</div>
-    <div class="curtainlady"></div>
+    <div id="smallcontainer" class="grabsome">GRAB SOME HEALTHY BREAKFAST!!!</div>
+    <img id="lastimage" class="curtainlady">
 
-
+    <script src="./jsproject.js"></script>
 </body>
 </html>
