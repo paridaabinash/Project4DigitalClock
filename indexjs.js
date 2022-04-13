@@ -88,8 +88,26 @@ function setTime() {
         document.getElementById("smallcontainer").innerText = "CLOSE YOUR EYES AND GO TO SLEEP"
         document.getElementById("lastimage").src = "night_image@2x.jpg";
     }
+    updatetime();
 }
 
+function updatetime() {
+    let entry1 = document.getElementById("morning");
+    let updtime1 = entry1.options[entry1.selectedIndex].innerText;
+    document.getElementById("mortime").innerText = updtime1;
+
+    let entry2 = document.getElementById("afternoon");
+    let updtime2 = entry2.options[entry2.selectedIndex].innerText;
+    document.getElementById("luctime").innerText = updtime2;
+
+    let entry3 = document.getElementById("evening");
+    let updtime3 = entry3.options[entry3.selectedIndex].innerText;
+    document.getElementById("evetime").innerText = updtime3;
+
+    let entry4 = document.getElementById("night");
+    let updtime4 = entry4.options[entry4.selectedIndex].innerText;
+    document.getElementById("nittime").innerText = updtime4;
+}
 
 
 
